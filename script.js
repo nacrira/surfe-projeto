@@ -68,11 +68,11 @@ const perguntas = [
     {
         enunciado: "Você está no final da bateria e precisa de uma boa pontuação. O que você faz?",
         alternativas: [
-            
+            {
                 texto: "Arrisca uma manobra difícil.",
                 afirmacao: "A manobra difícil foi bem-sucedida e você conseguiu a pontuação necessária. Alta pontuação para você!",
                 pontos: 1
-            ,
+            },
             {
                 texto: "Joga seguro com uma manobra básica.",
                 afirmacao: "A manobra básica foi bem executada, mas não suficiente para a pontuação necessária. Pontuação moderada.",
@@ -105,7 +105,7 @@ function mostraAlternativas(){
 function respostaSelecionada(){
     const afirmacao = opcaoSelecionada.afirmacao;
     historiaFinal = afirmacao;
-    atual+;
+    atual++;
     mostraPergunta();
 }
 
